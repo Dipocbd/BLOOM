@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
 import Trending from '../components/Trending'
 import Catalogue from '../components/Catalogue'
+import Products from '../components/Products'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
         <Navbar />
         <Slider />
         <Catalogue />
+        <Products />
     </div>
   )
 }

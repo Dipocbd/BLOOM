@@ -5,7 +5,7 @@ import CatalogueItem from "./CatalogueItem";
 const Catalogue = () => {
     return <Container>
       {catalogue.map(item =>(
-        <CatalogueItem  item={item}/>
+        <CatalogueItem  item={item} key ={item.id}/>
              
       ))}
     </Container>;
