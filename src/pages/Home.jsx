@@ -4,6 +4,7 @@ import Slider from '../components/Slider'
 import Trending from '../components/Trending'
 import Catalogue from '../components/Catalogue'
 import Products from '../components/Products'
+import Newsletter from '../components/Newsletter'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
         <Slider />
         <Catalogue />
         <Products />
+        <Newsletter />
     </div>
   )
 }
