@@ -5,6 +5,7 @@ import Trending from '../components/Trending'
 import Catalogue from '../components/Catalogue'
 import Products from '../components/Products'
 import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Catalogue />
         <Products />
         <Newsletter />
+        <Footer/>
     </div>
   )
 }
