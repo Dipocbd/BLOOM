@@ -93,8 +93,8 @@ const Footer = () => {
           <List>
                <ListItem>Home</ListItem>
                <ListItem>Cart</ListItem>
-               <ListItem>Man Fashion</ListItem>
-               <ListItem>Woman Fashion</ListItem>
+               <ListItem>Men Fashion</ListItem>
+               <ListItem>Women Fashion</ListItem>
                <ListItem>Accessories</ListItem>
                <ListItem>My Account</ListItem>
                <ListItem>Order Tracking</ListItem>
@@ -106,9 +106,9 @@ const Footer = () => {
         <Right>
 
           <Title>Contact</Title>
-          <ContactItem><Room/>54 Red Keep, KingsLanding </ContactItem>
-          <ContactItem><Phone/>+2348100458460</ContactItem>
-          <ContactItem><MailOutline/>dipoojo6@gmail.com</ContactItem>
+          <ContactItem><Room style={{marginRight:"10px"}}/>54 Red Keep, KingsLanding </ContactItem>
+          <ContactItem><Phone style={{marginRight:"10px"}}/>+2348100458460</ContactItem>
+          <ContactItem><MailOutline style={{marginRight:"10px"}}/>dipoojo6@gmail.com</ContactItem>
           <Payment src ="https://i.ibb.co/Qfvn4z6/payment.png"/>
         </Right>
     </Container>
