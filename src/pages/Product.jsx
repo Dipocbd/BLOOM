@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter"
 import Trending from "../components/Trending"
 
 const Container = styled.div``
+
 const Wrapper = styled.div`
 padding:50px;
 display:flex;`
@@ -26,6 +27,7 @@ font-weight:200;`
 
 const Desc = styled.p`
 margin:20px 0px;`
+
 const Price = styled.span`
 font-weight :100;
 font-size:30px;

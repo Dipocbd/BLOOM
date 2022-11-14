@@ -108,7 +108,7 @@ const Footer = () => {
           <Title>Contact</Title>
           <ContactItem><Room style={{marginRight:"10px"}}/>54 Red Keep, KingsLanding </ContactItem>
           <ContactItem><Phone style={{marginRight:"10px"}}/>+2348100458460</ContactItem>
-          <ContactItem><MailOutline style={{marginRight:"10px"}}/>dipoojo6@gmail.com</ContactItem>
+          <ContactItem><MailOutline style={{marginRight:"10px"}}/>bloom@gmail.com</ContactItem>
           <Payment src ="https://i.ibb.co/Qfvn4z6/payment.png"/>
         </Right>
     </Container>
