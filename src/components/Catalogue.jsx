@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { catalogue } from "../data";
 import CatalogueItem from "./CatalogueItem";
+import {mobile} from "../Responsive";
 
 const Catalogue = () => {
     return <Container>
@@ -16,6 +17,7 @@ const Catalogue = () => {
 const Container = styled.div`
 display:flex;
 padding:20px;
-justify-content:space-between`;
+justify-content:space-between
+${mobile({ padding: "0px", display:"grid", gridTemplateColumns: "1fr" })}`;
 
 export default Catalogue
