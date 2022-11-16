@@ -2,6 +2,7 @@ import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } fro
 import React from 'react'
 import styled from 'styled-components'
 import {mobile} from "../Responsive"
+import IMG from '../assets/CBD.png'
 
 const Container = styled.div`
 display:flex;
@@ -65,6 +66,9 @@ align-items:center;`
 const Payment = styled.img`
 width:50%;`
 
+const Image = styled.img`
+width:40px;
+`
 
 
 
@@ -72,7 +76,7 @@ const Footer = () => {
   return (
     <Container>
         <Left>
-            <Logo>BLOOM</Logo>
+            <Image src ={IMG}/>
             <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, libero adipisci. 
                 Illo fugiat repellendus placeat labore odit dolore animi atque?
                 </Desc>

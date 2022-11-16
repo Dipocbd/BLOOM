@@ -3,6 +3,7 @@ import { Badge } from '@mui/material'
 import React from 'react'
 import styled from 'styled-components'
 import {mobile} from "../Responsive"
+import IMG from '../assets/CBD.png'
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
           <Search style={{color:"gray", fontSize:16}}/>
         </SearchContainer>
         </Left>
-        <Center><Logo>BLOOM</Logo></Center>
+        <Center><Image src={IMG}/></Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
@@ -72,6 +73,9 @@ text-align:center;`
 const Logo = styled.h1`
   font-weight:bold;
   ${mobile({fontSize: "24px"})}`
+  
+  const Image = styled.img`
+  width:40px;`
 
 const Right= styled.div`
 flex:1;

@@ -1,28 +1,43 @@
-import IMG from '../src/assets/chelsea.jpg'
+import IMG from '../src/assets/IMG_7044.PNG'
+import IMG1 from '../src/assets/IMG_7041.PNG'
+import IMG2 from '../src/assets/IMG_7043.PNG'
+import IMG3 from '../src/assets/chelsea.jpg'
+import IMG4 from '../src/assets/cbd6.jpg'
+import IMG5 from '../src/assets/cbd14.jpg'
+import IMG6 from '../src/assets/cbd10.jpg'
+import IMG7 from '../src/assets/cbd17.jpg'
+import IMG8 from '../src/assets/cbd12.jpg'
+import IMG9 from '../src/assets/cbd11.jpg'
+import IMG10 from '../src/assets/cbd23.jpg'
+import IMG11 from '../src/assets/cbd14.jpg'
+import IMG12 from '../src/assets/cbd24.jpg'
+import IMG13 from '../src/assets/accessories.jpg'
+
+
 
 
 export const sliderItems =[
     {
         id: 1,
-        img: "https://images.unsplash.com/photo-1606773061828-28a5ad536bf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        img: IMG12,
         title: "POPULAR SALE",
-        desc: " MUSEUM OF CLOTHINGS",
+        desc: " SHOP FOR THE LATEST COLLECTIONS OF SHOES",
         bg:"green",
      },
 
      {
          id: 2,
-         img: "https://images.unsplash.com/photo-1661440537444-c7ac581edeb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVkaWV2YWwlMjBjbG90aGluZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-         title: "SUMMER SALE",
-         desc: "ONE STOP ONLINE STORE FOR ANCIENT DRIP",
+         img: IMG,
+         title: "SHOP CBD DESIGNS",
+         desc: "ONE STOP ONLINE STORE FOR BESPOKE SHOES",
          bg:"black",
      },
 
      {
         
         id: 3,
-        img: "https://images.unsplash.com/photo-1596716148130-f95f2b735a92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-        title: "WINTER SALE",
+        img: IMG13,
+        title: "FEATURED ACCESSORIES",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg:"f5fafd",
      }
@@ -31,20 +46,20 @@ export const sliderItems =[
      export const catalogue = [
         {
             id: 1,
-            img: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-            title: "SWEATS",
+            img: IMG1,
+            title: "MULES",
         },
 
         {
             id: 2,
-            img:"https://media.istockphoto.com/photos/martial-arts-iaido-picture-id1305904855?b=1&k=20&m=1305904855&s=170667a&w=0&h=_9jNE_U9lU-4-f4BVM1sHu6-WPGyxYBgJ6A65pg69PA=",
-            title: "SWORDS",
+            img:IMG4,
+            title: "DESERT ANKLE BOOTS",
         },
 
         {
             id: 3,
-            img:"https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-            title:"LEATHER JACKETS"
+            img:IMG5,
+            title:"LACEUP SHOES"
         }
      ]
 
@@ -52,50 +67,50 @@ export const sliderItems =[
      export const trendingProducts = [
         {
             id:1,
-            img: "58b8418015d8273a5cab2fc3-1.png",
-            title: "CHINESE RICE PADDY HAT",
+            img: IMG2,
+            title: "BROWN MONKSTRAPS",
         },
 
         {
             id:2,
-            img: "https://assets.stickpng.com/thumbs/58b8418915d8273a5cab2fc4.png",
+            img: IMG3,
             title: "ROUND CHINESE HAT",       
         },  
 
         {
             id:3,
-            img:"https://assets.stickpng.com/thumbs/58b8416f15d8273a5cab2fc1.png",
+            img:IMG6,
             title: "CHINESE SILK HAT",
         },
 
         {
             id:4,
-            img: "https://assets.stickpng.com/thumbs/58d2a867dc164e9dd9e66905.png",
+            img: IMG7,
             title: "ARMET HELMET",
         },
 
         {
             id:5,
-            img:"https://assets.stickpng.com/thumbs/58d2a87fdc164e9dd9e66907.png",
+            img:IMG8,
             title: "IRON HELMET",
         },
 
         {
             id:6,
-            img:"https://assets.stickpng.com/thumbs/58d2a7fbdc164e9dd9e668fe.png",
+            img:IMG9,
             title: "MEDIEVAL KNIGHTS HELMET",   
         },
 
         {
             id:7,
-            img:"https://assets.stickpng.com/thumbs/58d2a7eadc164e9dd9e668fd.png",
+            img:IMG10,
             title: "NASAL HELMET",
         },
 
 
         {
             id:8,
-            img:"https://assets.stickpng.com/thumbs/58d2a7c8dc164e9dd9e668fb.png",
+            img:IMG11,
             title: "ROMAN HELMET"
         }
         

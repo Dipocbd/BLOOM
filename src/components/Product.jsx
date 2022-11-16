@@ -5,6 +5,7 @@ import styled from "styled-components"
 const Product = ({item}) => {
   return (
     <Container>
+      {/* <Title>{item.title}</Title> */}
      <Image src= {item.img} />
      <Info>
      <Icon>
@@ -17,6 +18,7 @@ const Product = ({item}) => {
         <FavoriteBorderOutlined />
      </Icon>
      </Info>
+     
     </Container>
     
   )
@@ -70,6 +72,10 @@ transition:all 0.5s ease;
    transform:scale(1.1);
 }
 }`
+
+// const Title = styled.div``
+
+
 
 
 

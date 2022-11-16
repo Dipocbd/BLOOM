@@ -12,6 +12,7 @@ const Products = () => {
 
             <Product item ={item} key={item.id} />
             
+            
         ))}
     </Container>
   );
