@@ -14,7 +14,7 @@ display:flex;
 flex-direction:column;
 padding:20px;`
 
-const Logo = styled.h1``
+// const Logo = styled.h1``
 
 const Desc = styled.p`
 margin:20px 0px;
@@ -116,7 +116,7 @@ const Footer = () => {
           <Title>Contact</Title>
           <ContactItem><Room style={{marginRight:"10px"}}/>54 Red Keep, KingsLanding </ContactItem>
           <ContactItem><Phone style={{marginRight:"10px"}}/>+2348100458460</ContactItem>
-          <ContactItem><MailOutline style={{marginRight:"10px"}}/>bloom@gmail.com</ContactItem>
+          <ContactItem><MailOutline style={{marginRight:"10px"}}/>cbdstores@gmail.com</ContactItem>
           <Payment src ="https://i.ibb.co/Qfvn4z6/payment.png"/>
         </Right>
     </Container>

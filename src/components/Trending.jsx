@@ -5,7 +5,7 @@ import styled from "styled-components"
 const Trending = () => {
   return (
     <Container>
-        Free Shipping on Orders over 200$
+        Free Shipping on Orders over 50,000₦
     </Container>
   )
 }
