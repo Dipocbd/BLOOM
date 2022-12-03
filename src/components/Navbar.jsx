@@ -1,6 +1,7 @@
 import { Search, ShoppingCartCheckoutOutlined } from '@mui/icons-material'
 import { Badge } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {mobile} from "../Responsive"
 import IMG from '../assets/CBD.png'
@@ -16,10 +17,10 @@ const Navbar = () => {
           <Search style={{color:"gray", fontSize:16}}/>
         </SearchContainer>
         </Left>
-        <Center><Image src={IMG}/></Center>
+        <Link to='/home'><Center><Image src={IMG}/></Center></Link>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <Link to='/register' style ={{ color:'inherit', textDecoration:'none'}}><MenuItem>REGISTER</MenuItem></Link>
+          <Link to='/login'style ={{ color:'inherit',textDecoration:'none'}}><MenuItem>SIGN IN</MenuItem></Link>
           <MenuItem>
           <Badge badgeContent={4} color="success">
           <ShoppingCartCheckoutOutlined />
@@ -82,12 +83,15 @@ flex:1;
 display:flex;
 align-items:center;
 justify-content:flex-end;
+text-decoration:none;
 ${mobile({flex: 2, justifyContent: "center"})}`
+
 
 const MenuItem = styled.div`
 font-size:14px;
 cursor:pointer;
 margin-left:25px;
+
 ${mobile({fontSize: "12px", marginLeft: "10px"})}`
 
 export default Navbar

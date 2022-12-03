@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+// import Navbar from "../components/Navbar"
 import Newsletter from "../components/Newsletter"
 import Products from "../components/Products"
 import Trending from "../components/Trending"
@@ -35,7 +35,7 @@ const Option = styled.option`
 const ProductList = () => {
   return (
     <Container>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Trending/>
         <Title>Dresses</Title>
         <FilterContainer>

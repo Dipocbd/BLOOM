@@ -1,7 +1,7 @@
 import { Add, Remove, RemoveCircle, RemoveShoppingCart } from "@mui/icons-material"
 import styled from "styled-components"
 import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+// import Navbar from "../components/Navbar"
 import Newsletter from "../components/Newsletter"
 import Trending from "../components/Trending"
 import {mobile} from "../Responsive"
@@ -109,7 +109,7 @@ font-weight:500;
 const Product = () => {
   return (
     <Container>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Trending/>
         <Wrapper>
             <ImgContainer>
