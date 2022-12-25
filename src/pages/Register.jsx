@@ -1,3 +1,4 @@
+import React, {useState} from "react"
 import styled from "styled-components"
 import {mobile} from "../Responsive"
 
@@ -44,17 +45,31 @@ cursor:pointer;`
 
 
 const Register = () => {
+
+const[name, setName] = useState('')
+console.log(name);
+const[lastName, setlastName] = useState('')
+const[userName, setuserName] = useState('')
+const[email, setEmail] = useState('')
+console.log(email);
+const[password, setPassword] = useState('')
+const[confirmPassword, setconfirmPassword] = useState('')
+
+const handleSubmit =(e) =>{
+  e.preventDefault();
+}
+
   return (
     <Container>
         <Wrapper>
             <Title>CREATE ACCOUNT</Title>
-            <Form>
-                <Input placeholder="name" />
-                <Input placeholder="last name" />
-                <Input placeholder="username" />
-                <Input placeholder="email" />
-                <Input placeholder="password" />
-                <Input placeholder="confirm password " />
+            <Form onSubmit={handleSubmit}>
+                <Input type="text" name="name" placeholder="name" value={name} onChange={(e)=>setName(e.target.value)} />
+                <Input type="text" name="name" placeholder="last name"value={lastName} onChange={(e)=>setlastName(e.target.value)} />
+                <Input type="text" name="name" placeholder="username"value={userName} onChange={(e)=>setuserName(e.target.value)} />
+                <Input type="email" name="email" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+                <Input type='password' name="password" placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+                <Input type='password'placeholder="confirm password" value={confirmPassword} onChange={(e)=>setconfirmPassword(e.target.value)} />
                 <Agreement>
                     By creating an account on this website, I consent to the processing of my personal
                     data in accordance with the <b >PRIVACY POLICY </b>

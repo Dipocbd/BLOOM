@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 import styled from "styled-components"
 import {mobile} from "../Responsive"
 
@@ -46,14 +47,27 @@ text-decoration:underline;
 cursor:pointer;`
 
 const Login = () => {
+
+const [userName, setUserName] = useState('')
+console.log(userName);
+const[password, setPassword] = useState('')
+
+const changePassword = (e) =>{
+  setPassword(e.target.value)
+}
+
+const handleSubmit = (e) =>{
+ e.preventDefault();
+}
+
   return (
     <Container>
         <Wrapper>
             <Title>SIGN IN</Title>
-            <Form>
-                <Input placeholder="username" />
-                <Input placeholder="password" />
-                <Button>LOG IN</Button>
+            <Form onSubmit={handleSubmit}>
+                <Input type = 'username' placeholder="username"  value={userName} onChange={(e)=>setUserName(e.target.value)}/>
+                <Input type ='password' placeholder="password" value={password} onChange={changePassword} />
+                <Button type = 'submit'>LOG IN</Button>
                 <Link> DO NOT REMEMBER PASSWORD?</Link>
                 <Link>CREATE A NEW ACCOUNT</Link>
             </Form>
