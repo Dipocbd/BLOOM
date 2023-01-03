@@ -17,7 +17,7 @@ const Navbar = () => {
           <Search style={{color:"gray", fontSize:16}}/>
         </SearchContainer>
         </Left>
-        <Link to='/home'><Center><Image src={IMG}/></Center></Link>
+      <Center><Image src={IMG}/></Center>
         <Right>
           <Link to='/register' style ={{ color:'inherit', textDecoration:'none'}}><MenuItem>REGISTER</MenuItem></Link>
           <Link to='/login'style ={{ color:'inherit',textDecoration:'none'}}><MenuItem>SIGN IN</MenuItem></Link>
